@@ -1,7 +1,6 @@
 .inline-block {
     display: inline-block;
     vertical-align: top;
-    outline: 1px solid red;
 }
 
 .logo {
@@ -39,10 +38,13 @@ ul {
 .heroImg {
     height: auto;
     padding: 25px;
-    outline: 1px solid red;
     background-image: url("../images/bg1.png");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.heroImg div {
+    box-shadow: 10px 10px #424EDE;
 }
 
 .content {
@@ -54,6 +56,7 @@ ul {
     margin: 0 auto;
     text-align: center;
     padding: 1%;
+    padding-top: 40px;
 }
 
 .content h1 {
@@ -76,12 +79,12 @@ button {
     font-size: 33px;
     opacity: 1;
     color: white;
+    cursor: pointer;
 }
 
 footer {
     background-color: #BCD1FF;
     padding: 1%;
-    outline: 1px solid red;
 }
 footer ul {
     display: inline-block;
