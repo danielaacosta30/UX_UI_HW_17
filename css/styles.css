@@ -1,33 +1,25 @@
 .inline-block {
     display: inline-block;
     vertical-align: top;
+    /*outline: 1px solid red;*/
 }
 
 .logo {
     width: 23%;
     padding: 1%;
-    outline: 1px solid red;
+    text-align: left;
 }
 
-.headline {
-    width: 23%;
-    padding: 1%;
-    font-family: 'Cabin', sans-serif;
-    font-size: 25px;
-    color: white;
-    outline: 1px solid red;
-}
-
-.nav {
-    outline: 2px solid green;
-    display: inline-flex;
-    background-color: #424EDE;
+header {
+    background-color: #BCD1FF;
 }
 
 nav {
     width: 73%;
-    padding: 1%;
-    outline: 1px solid red;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    color: #424EDE;
+    cursor: pointer;
 }
 
 ul {
@@ -35,12 +27,15 @@ ul {
     margin-left: auto;
 }
 
+li {
+    padding-right: 8%;
+}
+
 .heroImg {
-    height: auto;
+    height: 600px;
     padding: 25px;
     background-image: url("../images/bg1.png");
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .heroImg div {
@@ -51,7 +46,7 @@ ul {
     background-color: white;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     width: 40%;
     margin: 0 auto;
     text-align: center;
@@ -59,24 +54,14 @@ ul {
     padding-top: 40px;
 }
 
-.content h1 {
-    color: white;
-    background-color: #424EDE;
-    font-family: 'Cabin', sans-serif;
-    font-size: 45px;
-    text-align: center;
-}
-
 button {
-    top: 1514px;
-    left: 968px;
     width: 398px;
     height: 72px;
     background: #424EDE 0% 0% no-repeat padding-box;
     border-radius: 10px;
     font-family: 'Cabin', sans-serif;
     font-style: normal;
-    font-size: 33px;
+    font-size: 22px;
     opacity: 1;
     color: white;
     cursor: pointer;
@@ -86,12 +71,13 @@ footer {
     background-color: #BCD1FF;
     padding: 1%;
 }
+
 footer ul {
     display: inline-block;
     vertical-align: top;
     padding: 1%;
-    color: #424EDE;
     font-family: 'Cabin', sans-serif;
-    font-style: normal;
-    font-size: 25px;
+    font-size: 20px;
+    color: #424EDE;
+    cursor: pointer;
 }
